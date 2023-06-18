@@ -1,0 +1,57 @@
+Angular
+-----------
+
+
+Node is is requied to install angular cli
+
+npm-node package manager
+
+
+ng- short form of angular
+
+ng v -commad to check if angular is installed
+
+npm i -g @angular/cli@latest  --> command to install angular (i means install g -global)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+profile view
+balance check
+money transfer
+account statemet
+delete account
+logout
+
+
+
+
+Angular Services
+-------------------
+a file used to keep datas and methods that can access by
+ any components in that module
+
+
+ng g s serviceName
+
+server Conversation
+------------
+npm init
+npm i express
+index.js file creation
+       1 -import express
+       2 - server create using express
+       3  - set port to run server

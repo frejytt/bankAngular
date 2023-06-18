@@ -1,0 +1,85 @@
+server
+---------
+1. npm init 
+2.npm i  express
+3.index.js file creation
+
+
+     steps
+     ++++++
+
+     1. import express
+     2. server create using express
+     3. set port to run server
+
+nodemon
+     
+     server used instead of node for automatic recombilation
+
+
+
+
+
+nodemon
+
+server used insted of node for automatic recombilation
+
+
+npm i -g nodemon
+
+npx nodemon index.js
+
+interview qn
+-------------
+1.features of mongodb
+2.diff between mongodb and sql
+
+
+
+basic shell command in mongodb(in mongosh or shell)
+---------------------------------
+* to list databases
+     ->show dbs
+
+* to open a database
+      -> use databaseName
+
+*to list the collections inside a database
+        -> show collections
+
+*to list the datas inside a collections
+         ->databaseName.collectionName.find()    ***
+
+* to access any single data from collection    
+            -> databaseName.collectionName.findOne({key:value})  ***
+             eg: bServer.users.findOne({acno:1000})    object/null
+
+
+* to delete any single data from collection
+          ->databaseName.collectionName.deleteOne({key:value})  ***
+
+
+* to  access datas according to a condition
+          ->databaseName.collectionName.find({key:{condition}})   ***        
+          ->bServer.users.find({balance:{gt:4000}})               
+
+
+* to  add new data to collection  -> insertOne({data})
+* update datas                    ->updateOne({data to update})
+
+
+server MongoDb integration
+--------------------------
+mongoose   - library used to integrate mongodb with node server
+connect()  - method ''
+
+
+
+json()  -  a method in express used to convert all incoming json datas to js
+
+front -End Server integration
+------------------------------
+
+cors - cross origin resourse sharing - library  
+
+
